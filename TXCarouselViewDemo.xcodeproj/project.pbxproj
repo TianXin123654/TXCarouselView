@@ -15,6 +15,15 @@
 		8F9E21B920219AEA005BFD43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9E21B820219AEA005BFD43 /* main.m */; };
 		8F9E21C320219AEB005BFD43 /* TXCarouselViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9E21C220219AEB005BFD43 /* TXCarouselViewDemoTests.m */; };
 		8F9E21CE20219AEB005BFD43 /* TXCarouselViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9E21CD20219AEB005BFD43 /* TXCarouselViewDemoUITests.m */; };
+		8F9E21E720219B6F005BFD43 /* TXCarouselCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F9E21DC20219B6E005BFD43 /* TXCarouselCollectionViewCell.xib */; };
+		8F9E21E820219B6F005BFD43 /* TXCarouselViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9E21DE20219B6E005BFD43 /* TXCarouselViewLayout.m */; };
+		8F9E21E920219B6F005BFD43 /* TXCarouselCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9E21DF20219B6E005BFD43 /* TXCarouselCellModel.m */; };
+		8F9E21EA20219B6F005BFD43 /* TXCarouselCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9E21E020219B6E005BFD43 /* TXCarouselCollectionViewCell.m */; };
+		8F9E21EB20219B6F005BFD43 /* TXCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9E21E320219B6E005BFD43 /* TXCarouselView.m */; };
+		8F9E21F020219C18005BFD43 /* CarouselImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9E21ED20219C17005BFD43 /* CarouselImageCell.m */; };
+		8F9E21F120219C18005BFD43 /* CarouselImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F9E21EE20219C17005BFD43 /* CarouselImageCell.xib */; };
+		8F9E21F520219DC8005BFD43 /* TXTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F9E21F220219DC7005BFD43 /* TXTextTableViewCell.xib */; };
+		8F9E21F620219DC8005BFD43 /* TXTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9E21F320219DC8005BFD43 /* TXTextTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,21 @@
 		8F9E21C920219AEB005BFD43 /* TXCarouselViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TXCarouselViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9E21CD20219AEB005BFD43 /* TXCarouselViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXCarouselViewDemoUITests.m; sourceTree = "<group>"; };
 		8F9E21CF20219AEB005BFD43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9E21DC20219B6E005BFD43 /* TXCarouselCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TXCarouselCollectionViewCell.xib; sourceTree = "<group>"; };
+		8F9E21DD20219B6E005BFD43 /* TXCarouselViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXCarouselViewLayout.h; sourceTree = "<group>"; };
+		8F9E21DE20219B6E005BFD43 /* TXCarouselViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXCarouselViewLayout.m; sourceTree = "<group>"; };
+		8F9E21DF20219B6E005BFD43 /* TXCarouselCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXCarouselCellModel.m; sourceTree = "<group>"; };
+		8F9E21E020219B6E005BFD43 /* TXCarouselCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXCarouselCollectionViewCell.m; sourceTree = "<group>"; };
+		8F9E21E120219B6E005BFD43 /* TXCarouselCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXCarouselCollectionViewCell.h; sourceTree = "<group>"; };
+		8F9E21E220219B6E005BFD43 /* TXCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXCarouselView.h; sourceTree = "<group>"; };
+		8F9E21E320219B6E005BFD43 /* TXCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXCarouselView.m; sourceTree = "<group>"; };
+		8F9E21E620219B6F005BFD43 /* TXCarouselCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXCarouselCellModel.h; sourceTree = "<group>"; };
+		8F9E21ED20219C17005BFD43 /* CarouselImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselImageCell.m; sourceTree = "<group>"; };
+		8F9E21EE20219C17005BFD43 /* CarouselImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarouselImageCell.xib; sourceTree = "<group>"; };
+		8F9E21EF20219C17005BFD43 /* CarouselImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselImageCell.h; sourceTree = "<group>"; };
+		8F9E21F220219DC7005BFD43 /* TXTextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TXTextTableViewCell.xib; sourceTree = "<group>"; };
+		8F9E21F320219DC8005BFD43 /* TXTextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTextTableViewCell.m; sourceTree = "<group>"; };
+		8F9E21F420219DC8005BFD43 /* TXTextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTextTableViewCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +125,17 @@
 		8F9E21A820219AEA005BFD43 /* TXCarouselViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8F9E21DB20219B3A005BFD43 /* CarouselView */,
 				8F9E21A920219AEA005BFD43 /* AppDelegate.h */,
 				8F9E21AA20219AEA005BFD43 /* AppDelegate.m */,
 				8F9E21AC20219AEA005BFD43 /* ViewController.h */,
 				8F9E21AD20219AEA005BFD43 /* ViewController.m */,
+				8F9E21EF20219C17005BFD43 /* CarouselImageCell.h */,
+				8F9E21ED20219C17005BFD43 /* CarouselImageCell.m */,
+				8F9E21EE20219C17005BFD43 /* CarouselImageCell.xib */,
+				8F9E21F420219DC8005BFD43 /* TXTextTableViewCell.h */,
+				8F9E21F320219DC8005BFD43 /* TXTextTableViewCell.m */,
+				8F9E21F220219DC7005BFD43 /* TXTextTableViewCell.xib */,
 				8F9E21AF20219AEA005BFD43 /* Main.storyboard */,
 				8F9E21B220219AEA005BFD43 /* Assets.xcassets */,
 				8F9E21B420219AEA005BFD43 /* LaunchScreen.storyboard */,
@@ -130,6 +161,22 @@
 				8F9E21CF20219AEB005BFD43 /* Info.plist */,
 			);
 			path = TXCarouselViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		8F9E21DB20219B3A005BFD43 /* CarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				8F9E21E220219B6E005BFD43 /* TXCarouselView.h */,
+				8F9E21E320219B6E005BFD43 /* TXCarouselView.m */,
+				8F9E21E120219B6E005BFD43 /* TXCarouselCollectionViewCell.h */,
+				8F9E21E020219B6E005BFD43 /* TXCarouselCollectionViewCell.m */,
+				8F9E21DC20219B6E005BFD43 /* TXCarouselCollectionViewCell.xib */,
+				8F9E21DD20219B6E005BFD43 /* TXCarouselViewLayout.h */,
+				8F9E21DE20219B6E005BFD43 /* TXCarouselViewLayout.m */,
+				8F9E21E620219B6F005BFD43 /* TXCarouselCellModel.h */,
+				8F9E21DF20219B6E005BFD43 /* TXCarouselCellModel.m */,
+			);
+			path = CarouselView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +246,7 @@
 				TargetAttributes = {
 					8F9E21A520219AEA005BFD43 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					8F9E21BD20219AEB005BFD43 = {
 						CreatedOnToolsVersion = 9.0;
@@ -238,8 +285,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9E21E720219B6F005BFD43 /* TXCarouselCollectionViewCell.xib in Resources */,
 				8F9E21B620219AEA005BFD43 /* LaunchScreen.storyboard in Resources */,
+				8F9E21F520219DC8005BFD43 /* TXTextTableViewCell.xib in Resources */,
 				8F9E21B320219AEA005BFD43 /* Assets.xcassets in Resources */,
+				8F9E21F120219C18005BFD43 /* CarouselImageCell.xib in Resources */,
 				8F9E21B120219AEA005BFD43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9E21F020219C18005BFD43 /* CarouselImageCell.m in Sources */,
+				8F9E21EA20219B6F005BFD43 /* TXCarouselCollectionViewCell.m in Sources */,
+				8F9E21EB20219B6F005BFD43 /* TXCarouselView.m in Sources */,
+				8F9E21E820219B6F005BFD43 /* TXCarouselViewLayout.m in Sources */,
+				8F9E21E920219B6F005BFD43 /* TXCarouselCellModel.m in Sources */,
 				8F9E21AE20219AEA005BFD43 /* ViewController.m in Sources */,
 				8F9E21B920219AEA005BFD43 /* main.m in Sources */,
+				8F9E21F620219DC8005BFD43 /* TXTextTableViewCell.m in Sources */,
 				8F9E21AB20219AEA005BFD43 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,11 +486,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PN6RFD28L4;
 				INFOPLIST_FILE = TXCarouselViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tianxin.TXCarouselViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongqing.government;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "15f7b97a-e4c4-45c0-8738-44631e37aab3";
+				PROVISIONING_PROFILE_SPECIFIER = ChongqingGovernmentDevelopmentPodfile;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -443,11 +503,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PN6RFD28L4;
 				INFOPLIST_FILE = TXCarouselViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tianxin.TXCarouselViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongqing.government;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "15f7b97a-e4c4-45c0-8738-44631e37aab3";
+				PROVISIONING_PROFILE_SPECIFIER = ChongqingGovernmentDevelopmentPodfile;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

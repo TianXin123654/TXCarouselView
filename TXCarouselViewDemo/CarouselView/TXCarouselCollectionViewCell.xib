@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TXCarouselCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="193" height="181"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="193" height="181"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wtP-54-JOE">
+                        <rect key="frame" x="0.0" y="0.0" width="193" height="130"/>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="wtP-54-JOE" secondAttribute="height" multiplier="193:130" id="NJg-z4-bAz"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6pV-cg-b8H">
+                        <rect key="frame" x="0.0" y="130" width="193" height="51"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="山西村名刘福友：“我住上新房，真想让总书记再来我家看看”" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Vk-B9-hSK">
+                                <rect key="frame" x="5" y="0.0" width="183" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="7Vk-B9-hSK" secondAttribute="bottom" id="1vu-vj-cvd"/>
+                            <constraint firstAttribute="trailing" secondItem="7Vk-B9-hSK" secondAttribute="trailing" constant="5" id="dFp-36-KS6"/>
+                            <constraint firstItem="7Vk-B9-hSK" firstAttribute="top" secondItem="6pV-cg-b8H" secondAttribute="top" id="vfu-Bs-3tx"/>
+                            <constraint firstItem="7Vk-B9-hSK" firstAttribute="leading" secondItem="6pV-cg-b8H" secondAttribute="leading" constant="5" id="yTv-TB-9CK"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="wtP-54-JOE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="1Rj-iE-fmX"/>
+                <constraint firstAttribute="bottom" secondItem="6pV-cg-b8H" secondAttribute="bottom" id="7Ws-rj-w53"/>
+                <constraint firstItem="6pV-cg-b8H" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="RGC-pW-Ycm"/>
+                <constraint firstItem="wtP-54-JOE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="YbT-o0-QJ0"/>
+                <constraint firstAttribute="trailing" secondItem="6pV-cg-b8H" secondAttribute="trailing" id="dfx-ie-A7v"/>
+                <constraint firstAttribute="trailing" secondItem="wtP-54-JOE" secondAttribute="trailing" id="m50-Tm-WTm"/>
+                <constraint firstItem="6pV-cg-b8H" firstAttribute="top" secondItem="wtP-54-JOE" secondAttribute="bottom" id="wOw-8W-wYZ"/>
+            </constraints>
+            <size key="customSize" width="111" height="129"/>
+            <connections>
+                <outlet property="imageView" destination="wtP-54-JOE" id="7rb-Pg-arY"/>
+                <outlet property="titleStr" destination="7Vk-B9-hSK" id="32l-ZG-FYX"/>
+            </connections>
+            <point key="canvasLocation" x="-38" y="-43"/>
+        </collectionViewCell>
+    </objects>
+</document>
