@@ -1,4 +1,5 @@
   前段时间，公司的大佬看中了新浪新闻首页卡片滚动的特效，如下图：
+  
   ![新浪新闻卡片效果（网络来源）](https://upload-images.jianshu.io/upload_images/9610720-84968781a1077e85.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/360)
 
 拿到效果图一看之下这个效果，这个效果不是那么好做。由于赶在年前就要上线，时间紧迫。没办法只有靠度娘了，多方查找之下，找到了一篇文章-[iOS新浪新闻首页卡片滚动特效实现浅谈](https://www.jianshu.com/p/5145da65f20f)。
